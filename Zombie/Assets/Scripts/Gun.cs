@@ -104,7 +104,7 @@ public class Gun : MonoBehaviour
         bulletLineRenderer.SetPosition(1, hitPosition);
         bulletLineRenderer.enabled = true;
         // 라인 렌더러를 활성화하여 탄알 궤적을 그림
-        bulletLineRenderer.enabled = true;
+       
 
         // 0.03초 동안 잠시 처리를 대기
         yield return new WaitForSeconds(0.03f);
